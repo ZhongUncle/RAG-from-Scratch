@@ -1,5 +1,6 @@
 .DS_Store
 ._*
+save
 save/*
 .ipynb_checkpoints
 *.aux
