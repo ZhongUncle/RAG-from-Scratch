@@ -26,8 +26,9 @@ Until now, the structure of project like below:
 
 ## To-Dos
 
-1. When file category is General Document, compare all files(for 2 versions) embeddings.
-2. Add some diagrams to illustrate;
-3. Finish Version 2.0;
-4. Write a single Python script to show it;
-5. Write C++ version.
+1. Clean all special symbols to avoid text be seen as tuple
+2. When file category is General Document, compare all files(for 2 versions) embeddings.
+3. Add some diagrams to illustrate;
+4. Finish Version 2.0;
+5. Write a single Python script to show it;
+6. Write C++ version.
