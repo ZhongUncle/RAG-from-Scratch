@@ -8,7 +8,7 @@ Here is a weekend project about RAG (Retrieval-Augmented Generation) from scratc
 
 I use [embeddinggemma](https://ollama.com/library/embeddinggemma), [GLM-OCR](https://ollama.com/library/glm-ocr), [GPT-OSS 20B](https://ollama.com/library/gpt-oss:20b). If your GPU can't run it, please change GPT-OSS 20B to Gemma3 12B or other LLM you can run (need supoort multi-languages). 
 
-I use 3080 20GB (Yes, 3080 with 20GB VRAM). The peak VRAM usage is about 19GB.
+I use RTX 3080 20GB (Yes, RTX 3080 with 20GB VRAM). The peak VRAM usage is about 19GB.
 
 ## Project Structure 
 
