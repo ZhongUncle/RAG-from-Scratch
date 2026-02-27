@@ -15,20 +15,20 @@ I use RTX 3080 20GB (Yes, RTX 3080 with 20GB VRAM). The peak VRAM usage is about
 Until now, the structure of project like below:
 
 - `pdfs`: I prepare some notes and blogs for you to test.
--  `RAG from scratch.ipynb`: In this notebook, you wil know:
+-  `Chapter 1 Step by Step.ipynb`: In this notebook, you will know:
     - How to deal with PDFs, such as OCR;
     - How to get the categories of a PDF files; 
     - How to use [Ollama](https://ollama.com/) and [embeddinggemma](https://ollama.com/library/embeddinggemma) to embed text to vector, save and load them;
     - How to use embedded vectors, like calculating similarity between 2 vectors. 
     - How to find related text and ask LLM with them.
+- `Chapter 2 Auto process all files.ipynb`: In this notebook, you will know how to use below knowledges to auto process PDF files.
 
 
 
 ## To-Dos
 
-1. Clean all special symbols to avoid text be seen as tuple
-2. When file category is General Document, compare all files(for 2 versions) embeddings.
-3. Add some diagrams to illustrate;
-4. Finish Version 2.0;
-5. Write a single Python script to show it;
-6. Write C++ version.
+1. ✅When file category is General Document, compare all files(for 2 versions) embeddings. Fix: Add `General Document` category.
+2. Add some diagrams to illustrate;
+3. Finish Version 2.0;
+4. Write a single Python script to show it;
+5. Write C++ version.
